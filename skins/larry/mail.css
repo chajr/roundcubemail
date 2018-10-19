@@ -198,6 +198,8 @@ html.mozilla #mailboxlist > li:first-child {
 	left: 0;
 	height: 40px;
 	white-space: nowrap;
+	background-color: #fff;
+	padding: 3px 0 4px 0;
 }
 
 #messagetoolbar.fullwidth {

@@ -11,11 +11,16 @@
  */
 
 body {
-	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #333;
-	background: #cad2d9;
-	margin: 0;
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333;
+    /*background: #1f3242;*/
+    background: #000;
+    margin: 0;
+    background-image: url(images/bluetree_base.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center; 
 }
 
 body.noscroll {
@@ -63,10 +68,9 @@ button {
 input[type="text"],
 input[type="password"],
 textarea {
-	margin: 0; /* Safari by default adds a margin */
-	padding: 4px;
-	border: 1px solid #b2b2b2;
-	border-radius: 4px;
+    margin: 0; /* Safari by default adds a margin */
+    padding: 4px;
+    border: 1px solid #b2b2b2;
 }
 
 input[type="text"]:focus,
@@ -108,25 +112,23 @@ label input + span {
 /*** buttons ***/
 
 input.button {
-	display: inline-block;
-	margin: 0 2px;
-	padding: 4px 8px;
-	color: #525252;
-	border: 1px solid #c0c0c0;
-	border-radius: 4px;
-	background: #f7f7f7;
-	text-decoration: none;
-	outline: none;
+    display: inline-block;
+    margin: 0 2px;
+    padding: 4px 8px;
+    color: #525252;
+    border: 1px solid #c0c0c0;
+    background: #f7f7f7;
+    text-decoration: none;
+    outline: none;
 }
 
 .formbuttons input.button {
-	color: #ddd;
-	font-size: 110%;
-	padding: 4px 12px;
-	border-color: #465864;
-	border-radius: 5px;
-	background: #666666;
-	box-shadow: 0 1px 1px 0 #ccc;
+    color: #ddd;
+    font-size: 110%;
+    padding: 4px 12px;
+    border-color: #465864;
+    background: #666666;
+    box-shadow: 0 1px 1px 0 #ccc;
 }
 
 .formbuttons input.button:hover,
@@ -1697,14 +1699,10 @@ ul.proplist li {
 }
 
 #login-form .box-inner {
-	width: 430px;
-	background: #404040;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #404040), color-stop(100%, #2e2e2e));
-	background: -ms-linear-gradient(top, #404040 0%, #2e2e2e 100%);
-	background: linear-gradient(to bottom, #404040 0%, #2e2e2e 100%);
-	margin: 0 50px;
-	padding: 10px 24px 24px 24px;
-	border-radius: 6px;
+    width: 430px;
+    background-color: rgba(26, 84, 109, 0.9);
+    margin: 0 50px;
+    padding: 50px 24px 24px 24px;
 }
 
 #login-form .box-bottom {
