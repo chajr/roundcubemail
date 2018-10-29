@@ -71,6 +71,8 @@ textarea {
     margin: 0; /* Safari by default adds a margin */
     padding: 4px;
     border: 1px solid #b2b2b2;
+    background-color: rgba(0, 46, 62, .5);
+    color: #00a2e2;
 }
 
 input[type="text"]:focus,
@@ -128,7 +130,7 @@ input.button {
     padding: 4px 12px;
     border-color: #465864;
     background: #666666;
-    box-shadow: 0 1px 1px 0 #ccc;
+    /*box-shadow: 0 1px 1px 0 #ccc;*/
 }
 
 .formbuttons input.button:hover,
@@ -491,13 +493,13 @@ a.iconlink.upload {
 #message div.notice,
 #message div.confirmation,
 #message-objects div.notice {
-	color: #555;
-	font-weight: bold;
-	padding: 6px 30px 6px 25px;
-	display: inline-block;
-	white-space: nowrap;
-	background: url(images/messages.png) 0 5px no-repeat;
-	cursor: default;
+    color: #01bbff;
+    font-weight: bold;
+    padding: 6px 30px 6px 25px;
+    display: inline-block;
+    white-space: nowrap;
+    background: url(images/messages.png) 0 5px no-repeat;
+    cursor: default;
 }
 
 #message div.warning {
@@ -1700,9 +1702,10 @@ ul.proplist li {
 
 #login-form .box-inner {
     width: 430px;
-    background-color: rgba(26, 84, 109, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 0 50px;
     padding: 50px 24px 24px 24px;
+    border: 1px solid #02638D;
 }
 
 #login-form .box-bottom {
@@ -1725,19 +1728,19 @@ ul.proplist li {
 
 #login-form input[type="text"],
 #login-form input[type="password"] {
-	width: 100%;
-	border-color: #666;
+    width: 100%;
+    border-color: #02638d;
 }
 
 #login-form input.button {
-	color: #444;
-	border-color: #f9f9f9;
-	background-color: #f9f9f9;
+    color: #01a5e4;
+    border-color: #02638d;
+    background-color: #002a50;
 }
 
 #login-form input.button:active {
-	color: #333;
-	background-color: #dcdcdc;
+    color: #01bbff;
+    background-color: #005797;
 }
 
 #login-form form table {
@@ -1745,11 +1748,11 @@ ul.proplist li {
 }
 
 #login-form td.title {
-	width: 20%;
-	white-space: nowrap;
-	color: #cecece;
-	text-align: right;
-	padding-right: 1em;
+    width: 20%;
+    white-space: nowrap;
+    color: #0094d0;
+    text-align: right;
+    padding-right: 1em;
 }
 
 #login-form p.formbuttons {
